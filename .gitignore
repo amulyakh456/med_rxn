@@ -24,3 +24,4 @@ data/ddinter/
 
 # Runtime cache file — lives on Render persistent disk, not in repo
 data/gap1_cache.csv
+data/
