@@ -1,0 +1,26 @@
+node_modules/
+.DS_Store
+.env
+backend/.env
+frontend/dist/
+
+# Scrape intermediates / backups — NOT needed at runtime
+data/1mg_medicines_clean.csv
+data/1mg_medicines_database.csv
+data/gap5_cache.csv
+data/interactions_full.csv.stale-*
+data/gap3_cache.csv.backup-*
+data/new_medicines_to_scrape.json
+data/pass1_known.json
+data/pass2_known.json
+data/pass1_unknown.json
+data/pass2_unknown.json
+data/.1mg_index.json
+data/.pass1_progress.json
+data/.pass2_progress.json
+data/.enrich_new_progress.json
+data/backup_*/
+data/ddinter/
+
+# Runtime cache file — lives on Render persistent disk, not in repo
+data/gap1_cache.csv

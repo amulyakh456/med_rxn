@@ -1,0 +1,16 @@
+services:
+  # Frontend only — backend runs on Hugging Face Spaces (free).
+  # Update VITE_API_BASE below with your actual HF Space URL once created.
+  - type: web
+    name: drug-interactions-ui
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://amulyakh-drug-interactions-api.hf.space
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

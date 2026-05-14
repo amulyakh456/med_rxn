@@ -1,0 +1,17 @@
+{
+  "name": "drug-reactions",
+  "version": "1.0.0",
+  "description": "Drug interaction enrichment and checking",
+  "main": "backend/server.js",
+  "scripts": {
+    "enrich": "node scripts/enrich_ddinter.js",
+    "enrich:limit": "node scripts/enrich_ddinter.js --limit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.4.0",
+    "csv-parse": "^5.4.1",
+    "csv-stringify": "^6.4.5",
+    "dotenv": "^16.0.3",
+    "node-html-parser": "^7.1.0"
+  }
+}

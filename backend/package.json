@@ -1,0 +1,19 @@
+{
+  "name": "drug-interaction-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for the drug interaction engine. Loads cleaned 1mg + DDInter CSVs in memory and exposes /api/search and /api/check.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.7.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2"
+  }
+}

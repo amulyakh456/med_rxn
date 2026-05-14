@@ -1,0 +1,99 @@
+/* Drop-in styles for <InteractionPanel /> — match recordrx's visual language.
+   Import once: import '@/components/interactions/interactionPanel.css' */
+
+.rx-warn {
+  margin-top: 18px;
+  border-radius: 10px;
+  border: 1px solid #e3e8ef;
+  background: #fffefb;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  color: #1f2a44;
+}
+.rx-warn-head {
+  padding: 14px 18px;
+  font-weight: 600;
+  background: #fff8e1;
+  border-bottom: 1px solid #f6e7a8;
+}
+.rx-warn-head.ok {
+  background: #e8f8e8;
+  border-bottom-color: #c5e9c5;
+  color: #1f5e2c;
+}
+.rx-warn-summary {
+  padding: 10px 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #fffdf7;
+  border-bottom: 1px solid #f4eed5;
+}
+.rx-pill {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.rx-pill-major    { background: #d9534f; }
+.rx-pill-moderate { background: #f0ad4e; }
+.rx-pill-minor    { background: #5bc0de; }
+.rx-pill-unknown  { background: #8a94a6; }
+
+.rx-warn-note {
+  padding: 12px 18px;
+  background: #fff4f4;
+  border-bottom: 1px solid #fde0e0;
+  color: #7a1f1f;
+  font-size: 13px;
+}
+.rx-warn-note.info {
+  background: #eef7ff;
+  border-color: #cde3f3;
+  color: #1d4566;
+}
+
+.rx-warn-row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 12px;
+  padding: 12px 18px;
+  border-bottom: 1px solid #fbf6e2;
+  align-items: start;
+}
+.rx-warn-row:last-child { border-bottom: none; }
+
+.rx-sev {
+  text-align: center;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  letter-spacing: 0.04em;
+}
+.rx-sev-major    { background: #d9534f; }
+.rx-sev-moderate { background: #f0ad4e; }
+.rx-sev-minor    { background: #5bc0de; }
+.rx-sev-unknown  { background: #8a94a6; }
+
+.rx-pair { font-weight: 600; }
+.rx-ings { color: #6b7794; font-size: 12.5px; margin-top: 2px; font-family: ui-monospace, monospace; }
+
+.rx-warn-loading {
+  padding: 12px 18px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  color: #6b7794;
+  font-size: 13px;
+}
+.rx-warn-error {
+  padding: 12px 18px;
+  background: #fff4f4;
+  color: #7a1f1f;
+  border-radius: 8px;
+  font-size: 13px;
+}
