@@ -1,0 +1,6 @@
+{
+  "GIT_BRANCH": "master",
+  "GIT_LABEL": "PROMOTE_DEV",
+  "REPO_NAME": "med-rxn",
+  "MODULES": ["backend", "frontend"]
+}
