@@ -52,7 +52,7 @@ export default function App() {
 
         <div className="content">
           <section className="card">
-            <h2 className="card-title">⚕ Treatments <span className="card-sub">Procedures and prescriptions</span></h2>
+            <h2 className="card-title">⚕ Treatments1234 <span className="card-sub">Procedures and prescriptions</span></h2>
             <h3 className="section-title">Prescription (Medications)</h3>
 
             {(() => {
